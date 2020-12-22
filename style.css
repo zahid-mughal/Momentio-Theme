@@ -1,9 +1,12 @@
+/*----------Global----------*/
 *{
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
 }
+
+/*----------Main & Back----------*/
 .main{
     width: 100vw;
     height: 110vh;
@@ -11,4 +14,12 @@
     background-size: cover;
     /* background-repeat: no-repeat; */
     /* background-position: center; */
+}
+
+/*----------Nav----------*/
+.nav{
+    width: 100vw;
+    height: 90px;
+    background-color: black;
+    opacity: 0.2;
 }
