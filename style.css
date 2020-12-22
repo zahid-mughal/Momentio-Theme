@@ -17,9 +17,42 @@
 }
 
 /*----------Nav----------*/
-.nav{
+.nav-back{
     width: 100vw;
     height: 90px;
-    background-color: black;
-    opacity: 0.2;
+    background-color: rgba(14, 2, 2, 0.8);
+    opacity: 0.3;
+}
+.nav{
+    width: 100vw;
+    /* top: 0; */
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    /* vertical-align: middle; */
+    align-items: center;
+}
+.navL{
+    width: 100px;
+    /* background-color: blue; */
+    color: white;
+    z-index: 1;
+    margin:8px 0 0 30px;
+} 
+.navR{
+    width: 110px;
+    /* background-color: brown; */
+    color: white;
+    z-index: 1;
+    margin-right: 30px;
+    
+}
+.navR p{
+    font-size: 20px;
+    margin-right: 4px;
+  
+}
+.navR i{
+    margin-left: 5px;
 }
